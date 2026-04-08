@@ -1,6 +1,6 @@
-FIFO Memory Design using Verilog in Xilinx Vivado
+**FIFO Memory Design using Verilog in Xilinx Vivado**
 
-Overview
+**Overview**
 
 This project implements a **synchronous FIFO (First-In First-Out) memory** using Verilog HDL and verifies its functionality through simulation and timing analysis in Xilinx Vivado.
 
@@ -11,7 +11,7 @@ The design demonstrates key digital design concepts such as:
 * Timing analysis (setup & hold)
 * Hardware-oriented RTL design
 
-Features
+**Features**
 
 * Parameterized FIFO depth and width
 * Separate **read and write pointers**
@@ -23,7 +23,7 @@ Features
 * Timing-verified (Setup and Hold constraints met)
 
 
-Architecture
+**Architecture**
 
 The FIFO consists of:
 * Write Pointer Logic
@@ -32,14 +32,14 @@ The FIFO consists of:
 * Memory Block (BRAM-based storage)
 
 
-Tools Used
+**Tools Used**
 
 * **Xilinx Vivado** – Design, synthesis, and implementation
 * **Verilog HDL** – RTL design
 * **Testbench Simulation** – Functional verification
 
 
-Timing Analysis Summary
+**Timing Analysis Summary**
 
 | Parameter         | Value     | 
 | ----------------- | --------- |
@@ -48,7 +48,7 @@ Timing Analysis Summary
 | Pulse Width Slack | +4.5 ns   | 
 
 
-Simulation
+**Simulation**
 
 The FIFO was verified using a testbench with:
 
