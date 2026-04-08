@@ -7,7 +7,6 @@ This project implements a synchronous FIFO (First-In First-Out) memory using Ver
 The design demonstrates key digital design concepts such as:
 
 Sequential logic design
-
 Memory interfacing using Block RAM (BRAM)
 
 Timing analysis (setup & hold)
