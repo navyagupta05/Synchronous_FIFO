@@ -49,6 +49,7 @@ The FIFO consists of:
 
 
 **Simulation**
+![Waveform](sim/waveform.png)
 
 The FIFO was verified using a testbench with:
 
